@@ -1,8 +1,11 @@
-<img
-  src="https://user-images.githubusercontent.com/44469426/230241106-5e51ce3f-069e-4140-92a6-9c946b1ae514.png"         width="392" 
-  height="124" 
-  align="center"
-/>
+<p align="center">
+  <img
+    width="392"
+    height="124" 
+    align="center"
+    src="https://user-images.githubusercontent.com/44469426/230241106-5e51ce3f-069e-4140-92a6-9c946b1ae514.png"
+  />
+</p>
 
 # PEA Pescarte
 
@@ -14,9 +17,6 @@ Aqui você pode achar links diretos para as seções desse documento!
 2. [Subprojetos](#subprojects)
 
   - [Pescarte API](#api)
-    - [Por que usar Elixir?](#why-elixir)
-    - [Diferença entre Concorrência e Paralelismo em Computação](#concurrency-parallelism)
-    - [BEAM - máquina virtual do Erlang](#beam)
   - [Pescarte Tags](#labeler)
   - [Pescarte Cotação de Pescados](#price)
 
@@ -48,48 +48,6 @@ Uma [API][ api-meaning ] (interface de aplicação programável) que expõe dado
 É a aplição que se conecta com nossa base de dados, data lake e faz outras integrações com serviços externos como [AWS][ aws-meaning ].
 
 A API do projeto é implementada com [Elixir][ elixir-site ], usando o [framework web][ framework-meaning ] chamado [Phoenix][ phoenix-site ].
-
-#### Por que usar Elixir?
-
-<a id="why-elixir" />
-
-[Elixir][ elixir-site ] é uma [linguagem funcional][ functional-prog ], criada em 2011 pelo José Valim. Ela é baseada na [BEAM][ beam-meaning ], a máquina virtual do [Erlang][ erlang-meaning ]. O Erlang é conhecido por ser uma linguagem robusta, perfeita para aplicações que necessitam ser tolerantes à falhas, concorrentes - aproveitando todo o potencial da máquina - e escaláveis.
-
-O [Elixir][ elixir-site ] surgiu com a proprosta de modernizar a sintaxe do [Erlang][ erlang-meaning ], que é fortemente herdada de [Prolog][ prolog-meaning ] - uma linguagem do paradigma lógico - e adicionar um gerenciador de depêndencias. Elixir e Erlang não são linguagens funcionais porque querem ser, e sim pois a concorrência e paralelismo num programa [POO][ oop-meaning ], [mutável][ immutability ] e [imperativo][ imperative-prog ], torna o gerenciamento das [threads][ thread-meaning ] algo que beira o impossível.
-
-Vantagens da programação funcional:
-
-- Imutabilidade
-- Melhor testabilidade
-- Programação declarativa
-- Sintaxe mais humanamente amigável
-- Funções puras, sem efeitos colaterais
-
-##### Diferença entre Concorrência e Paralelismo em Computação
-
-<a id="concurrency-parallelism" />
-
-Imagine uma máquina de venda de refrigerantes, onde apenas uma lata sai por vez, ou seja, apenas uma pessoa pode ser "atendida" após a outra. Com o tempo, forma-se uma fila para comprar refrigerante, onde cada pessoa retira seu item e vai embora. Neste caso, temos um modelo de programação linear.
-
-Fazendo a correlação deste cenário onde a máquina de refrigerante representa a [CPU][ cpu-meaning ] do computador e a fila de pessoas representa a fila de [processos](<https://pt.wikipedia.org/wiki/Processo_(inform%C3%A1tica)>) os quais essa CPU executa.
-
-Agora imagine que temos 2 (duas) máquinas de refrigerante - ou seja, duas CPUs, ou de forma mais realista, dois [núcleos](https://canaltech.com.br/hardware/como-ativar-os-nucleos-do-processador/) dentro da CPU - e agora cada máquina de refrigerante possui sua própria fila de pessoas - processos da CPU. Neste caso, chamamos esse modelo de computação de [_Paralelismo_][ paralel-meaning ].
-
-Num último caso, imagine que existe apenas 1 (uma) máquina de refrigerante (CPU) porém essa máquina é capaz de atender múltiplas filas de pessoas (processos), ou seja, mais de uma pessoa pode retirar seu item ao mesmo tempo da máquina. Para esse modelo de computação damos o nome de [_Concorrência_][ concurrency-meaning ].
-
-A imagem a seguir exemplifica os conceitos de _Paralelismo_ e _Concorrência_:
-
-![concorrencia_paralelismo](https://user-images.githubusercontent.com/44469426/230241225-60c9ac79-302d-4a19-96bd-b76585c5b902.png)
-
-#### BEAM - máquina virtual do Erlang
-
-<a id="beam" />
-
-A [BEAM][ beam-meaning ] é a máquina virtual do [Erlang][ erlang-meaning ] (assim como a [JVM][ jvm-meaning ] do [JAVA][ java-meaning ]). Seu funcionamento básico é: ela divide cada ação do seu programa em pequenas ações, chamados de processos (não confundir com os processos do sistema operacional da máquina local). Esses processos são supervisionados pela própria BEAM, para que quando haja algum erro, o sistema se recupere sozinho e sem atrapalhar os outros processos.
-
-Quando uma aplição Elixir/Erlang é iniciada, a BEAM cria um "Agendador" (Scheduler) para cada núcleo da CPU da máquina. Esses Agendadores também são processos, mas que supervisionam, agendam e gerenciam os outros processos da aplicação. A imagem a seguir exemplifica a crição dos Agendadores:
-
-![beam_schedulers](https://user-images.githubusercontent.com/44469426/230241258-08aeb6d8-9038-4eda-89f0-fb13de077aa9.png)
 
 ### [Plataforma Pescarte][ pescarte-plataforma ]
 
