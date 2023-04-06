@@ -1,17 +1,20 @@
-# PEA Pescarte
+<div style="display: flex; justify-content: space-between; align-items: center">
+  <h1>PEA Pescarte</h1>
+  <img src="./assets/pescarte_logo.svg" width="196" height="92" />
+</div>
 
 ## Tabela de Conteúdos
 
-Aqui voc6e pode achar links diretos para as seções desse documento!
+Aqui você pode achar links diretos para as seções desse documento!
 
 1. [Descrição do Projeto](#description)
 2. [Subprojetos](#subprojects)
-  1. [Pescarte API](#api)
-    1. [Por que usar Elixir?](#why-elixir)
-    2. [Diferença entre Concorrência e Paralelismo em Computação](#concurrency-parallelism)
-    3. [BEAM - máquina virtual do Erlang](#beam)
-  2. [Pescarte Tags](#labeler)
-  3. [Pescarte Cotação de Pescados](#price)
+  - [Pescarte API](#api)
+    - [Por que usar Elixir?](#why-elixir)
+    - [Diferença entre Concorrência e Paralelismo em Computação](#concurrency-parallelism)
+    - [BEAM - máquina virtual do Erlang](#beam)
+  - [Pescarte Tags](#labeler)
+  - [Pescarte Cotação de Pescados](#price)
 3. [Guias para Contribuições](#contribution-guides)
 4. [Regras de Negócio](#business-rules)
 
@@ -66,7 +69,7 @@ Num último caso, imagine que existe apenas 1 (uma) máquina de refrigerante (CP
 
 A imagem a seguir exemplifica os conceitos de _Paralelismo_ e _Concorrência_:
 
-![conceitos de paralelismo e concorrêencia](../assets/concorrencia_paralelismo.png)
+![conceitos de paralelismo e concorrêencia](./assets/concorrencia_paralelismo.png)
 
 <a id="beam" />
 #### BEAM - máquina virtual do Erlang
@@ -75,7 +78,7 @@ A [BEAM](beam-meaning) é a máquina virtual do [Erlang](erlang-meaning) (assim 
 
 Quando uma aplição Elixir/Erlang é iniciada, a BEAM cria um "Agendador" (Scheduler) para cada núcleo da CPU da máquina. Esses Agendadores também são processos, mas que supervisionam, agendam e gerenciam os outros processos da aplicação. A imagem a seguir exemplifica a crição dos Agendadores:
 
-![BEAM schedulers](../assets/beam_schedulers.png)
+![BEAM schedulers](./assets/beam_schedulers.png)
 
 <a id="frontend" />
 ### [Plataforma Pescarte](pescarte-plataforma)
