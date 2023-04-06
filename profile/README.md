@@ -123,6 +123,49 @@ Para contribuir com o Frontend (Plataforma Pescarte), sigas as intruções descr
 
 Esperamos que se divirta com suas contribuições, aprenda novos tópicos e tecnologias e se desenvolva em sua carreira!
 
+### Introdução a Programação Funcional
+
+Vídeos, artigos e ferramentas para entender e praticar programação funcional, tanto com Elixir quanto com TypeScript!
+
+- [Canal computerphile (en)](https://www.youtube.com/@Computerphile)
+- [Explicando a máquina de turing (en)](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+- [Explicando cálculo lambda - base da prog funcional (en)](https://www.youtube.com/watch?v=eis11j_iGMs)
+- [Programação funcional com javascript (en)](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [Aprenda programação funcional com javascript (en)](https://www.youtube.com/watch?v=R_-nUkpatwM)
+- [O que é programação funcional (pt-br)](https://www.alura.com.br/artigos/programacao-funcional-o-que-e)
+- [Introdução a programação funcional (pt-br)](https://inside.contabilizei.com.br/introdu%C3%A7%C3%A3o-a-programa%C3%A7%C3%A3o-funcional-cec510f515cd)
+- [Guia de introdução a programação funcional (pt-br)](https://medium.com/true-henrique/programa%C3%A7%C3%A3o-funcional-pura-ruby-e-monads-i-introdu%C3%A7%C3%A3o-b16687db63d)
+- [Introdução a programação funcional com Elixir (pt-br)](https://www.youtube.com/watch?v=dB6M4Hwv6cY)
+- [Introdução a prprogramação funcional com Elixir (slides) (pt-br)](https://www.slideshare.net/ArthurBraga/introduo-a-programao-funcional-com-elixir-v2)
+- [Técnicas de programação funcional com TypeScript (pt-br)](https://oieduardorabelo.medium.com/typescript-t%C3%A9cnicas-de-programa%C3%A7%C3%A3o-funcional-ad0e68b5e064)
+- [TypeScript para pessoas programadoras funcionais (pt-br)](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes-func.html)
+- [Introdução a programação funcional com TypeScripte JavaScript (pt-br)](https://dev.to/grubba/introducao-a-programacao-funcional-com-typescript-e-javascript-22b9)
+- [Live Node.JS + TS com programação funcional (pr-br)](https://gist.github.com/fdaciuk/9e7eb058d999bb20caa769684ae76904)
+- [Functional TypeScript - código com documentação (pt-br)](https://github.com/robertolima-dev/funcional-typescript)
+- [O que é Programação funcional (pt-br)](https://www.youtube.com/watch?v=53Lv3efp7Rk)
+- [Programação funcional exemplos em JS e Elixir (pt-br)](https://www.youtube.com/watch?v=8TC-40hWGcs)
+- [Aprendendo programação funcional com Elixir (pr-br)](https://www.youtube.com/watch?v=DYszf5MF8fA&list=PLxdiLpHsLM4SKmruij4mLLf8tYItLff5a)
+- [JavaScript funcional (pt-br)](https://www.youtube.com/watch?v=T89jpSLK-NM&list=PLv2oOZboUtKMn-xjAICBlINuqKwLmc13e)
+- [Aprendendo programação funcional com JS (en)](https://www.youtube.com/watch?v=e-5obm1G_FY)
+
+### Introdução ao Git e GitHub
+
+Vídeos, artigos e ferramentas para entender e praticar versionamento de projetos e gerenciamento de repositórios remotos com Git e Github!
+
+- [Aprenda comandos git visualmente (en)](https://learngitbranching.js.org/)
+- [Conceitos básicos de git (en)](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+- [Guia completo GitHub (en)](https://www.youtube.com/watch?v=UbJLOn1PAKw)
+- [git e github guia completo (en)](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- [Guia prático git (pt-br)](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Tutorial git para iniciantes (pt-br)](https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao)
+- [Documentação oficial git (en)](https://git-scm.com/doc)
+- [Tutorial git e github para iniciantes (pt-br)](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
+- [Como usar git e github na prática (pt-br)](https://www.youtube.com/watch?v=2alg7MQ6_sI)
+- [Guia git e github (pt-br)](https://terminalroot.com.br/git/)
+- [Comandos git úteis (pt-br)](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
+- [Primeiros passos github, oficial (pt-br)](https://docs.github.com/pt/get-started/quickstart/hello-world)
+- [Palestra do Linus Torvalds sobre git (en)](https://www.youtube.com/watch?v=4XpnKHJAok8)
+
 ## Regras de Negócio
 
 <a id="business-rules" />
