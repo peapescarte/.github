@@ -12,12 +12,14 @@ Aqui você pode achar links diretos para as seções desse documento!
 
 1. [Descrição do Projeto](#description)
 2. [Subprojetos](#subprojects)
+
   - [Pescarte API](#api)
     - [Por que usar Elixir?](#why-elixir)
     - [Diferença entre Concorrência e Paralelismo em Computação](#concurrency-parallelism)
     - [BEAM - máquina virtual do Erlang](#beam)
   - [Pescarte Tags](#labeler)
   - [Pescarte Cotação de Pescados](#price)
+
 3. [Guias para Contribuições](#contribution-guides)
 4. [Regras de Negócio](#business-rules)
 
@@ -37,23 +39,23 @@ A intenção é reforçar as identidades produtivas dessas comunidades pesqueira
 
 Atualmente contamos com 4 (quatro) subprojetos implementados no `GitHub` do Pescarte.
 
-### [Pescarte API](pescarte-api)
+### [Pescarte API][pescarte-api]
 
 <a id="api" />
 
-Uma [API](api-meaning) (interface de aplicação programável) que expõe dados públicos para serem consultados por entidades externas, mas também fornece dados para nosso outros subprojetos.
+Uma [API][ api-meaning ] (interface de aplicação programável) que expõe dados públicos para serem consultados por entidades externas, mas também fornece dados para nosso outros subprojetos.
 
-É a aplição que se conecta com nossa base de dados, data lake e faz outras integrações com serviços externos como [AWS](aws-meaning).
+É a aplição que se conecta com nossa base de dados, data lake e faz outras integrações com serviços externos como [AWS][ aws-meaning ].
 
-A API do projeto é implementada com [Elixir](elixir-site), usando o [framework web](framework-meaning) chamado [Phoenix](phoenix-site).
+A API do projeto é implementada com [Elixir][ elixir-site ], usando o [framework web][ framework-meaning ] chamado [Phoenix][ phoenix-site ].
 
 #### Por que usar Elixir?
 
 <a id="why-elixir" />
 
-[Elixir](elixir-site) é uma [linguagem funcional](functional-prog), criada em 2011 pelo José Valim. Ela é baseada na [BEAM](beam-meaning), a máquina virtual do [Erlang](erlang-meaning). O Erlang é conhecido por ser uma linguagem robusta, perfeita para aplicações que necessitam ser tolerantes à falhas, concorrentes - aproveitando todo o potencial da máquina - e escaláveis.
+[Elixir][ elixir-site ] é uma [linguagem funcional][ functional-prog ], criada em 2011 pelo José Valim. Ela é baseada na [BEAM][ beam-meaning ], a máquina virtual do [Erlang][ erlang-meaning ]. O Erlang é conhecido por ser uma linguagem robusta, perfeita para aplicações que necessitam ser tolerantes à falhas, concorrentes - aproveitando todo o potencial da máquina - e escaláveis.
 
-O [Elixir](elixir-site) surgiu com a proprosta de modernizar a sintaxe do [Erlang](erlang-meaning), que é fortemente herdada de [Prolog](prolog-meaning) - uma linguagem do paradigma lógico - e adicionar um gerenciador de depêndencias. Elixir e Erlang não são linguagens funcionais porque querem ser, e sim pois a concorrência e paralelismo num programa [POO](oop-meaning), [mutável](immutability) e [imperativo](imperative-prog), torna o gerenciamento das [threads](thread-meaning) algo que beira o impossível.
+O [Elixir][ elixir-site ] surgiu com a proprosta de modernizar a sintaxe do [Erlang][ erlang-meaning ], que é fortemente herdada de [Prolog][ prolog-meaning ] - uma linguagem do paradigma lógico - e adicionar um gerenciador de depêndencias. Elixir e Erlang não são linguagens funcionais porque querem ser, e sim pois a concorrência e paralelismo num programa [POO][ oop-meaning ], [mutável][ immutability ] e [imperativo][ imperative-prog ], torna o gerenciamento das [threads][ thread-meaning ] algo que beira o impossível.
 
 Vantagens da programação funcional:
 
@@ -69,11 +71,11 @@ Vantagens da programação funcional:
 
 Imagine uma máquina de venda de refrigerantes, onde apenas uma lata sai por vez, ou seja, apenas uma pessoa pode ser "atendida" após a outra. Com o tempo, forma-se uma fila para comprar refrigerante, onde cada pessoa retira seu item e vai embora. Neste caso, temos um modelo de programação linear.
 
-Fazendo a correlação deste cenário onde a máquina de refrigerante representa a [CPU](cpu-meaning) do computador e a fila de pessoas representa a fila de [processos](https://pt.wikipedia.org/wiki/Processo_(inform%C3%A1tica)) os quais essa CPU executa.
+Fazendo a correlação deste cenário onde a máquina de refrigerante representa a [CPU][ cpu-meaning ] do computador e a fila de pessoas representa a fila de [processos](<https://pt.wikipedia.org/wiki/Processo_(inform%C3%A1tica)>) os quais essa CPU executa.
 
-Agora imagine que temos 2 (duas) máquinas de refrigerante - ou seja, duas CPUs, ou de forma mais realista, dois [núcleos](https://canaltech.com.br/hardware/como-ativar-os-nucleos-do-processador/) dentro da CPU - e agora cada máquina de refrigerante possui sua própria fila de pessoas - processos da CPU. Neste caso, chamamos esse modelo de computação de [_Paralelismo_](paralel-meaning).
+Agora imagine que temos 2 (duas) máquinas de refrigerante - ou seja, duas CPUs, ou de forma mais realista, dois [núcleos](https://canaltech.com.br/hardware/como-ativar-os-nucleos-do-processador/) dentro da CPU - e agora cada máquina de refrigerante possui sua própria fila de pessoas - processos da CPU. Neste caso, chamamos esse modelo de computação de [_Paralelismo_][ paralel-meaning ].
 
-Num último caso, imagine que existe apenas 1 (uma) máquina de refrigerante (CPU) porém essa máquina é capaz de atender múltiplas filas de pessoas (processos), ou seja, mais de uma pessoa pode retirar seu item ao mesmo tempo da máquina. Para esse modelo de computação damos o nome de [_Concorrência_](concurrency-meaning).
+Num último caso, imagine que existe apenas 1 (uma) máquina de refrigerante (CPU) porém essa máquina é capaz de atender múltiplas filas de pessoas (processos), ou seja, mais de uma pessoa pode retirar seu item ao mesmo tempo da máquina. Para esse modelo de computação damos o nome de [_Concorrência_][ concurrency-meaning ].
 
 A imagem a seguir exemplifica os conceitos de _Paralelismo_ e _Concorrência_:
 
@@ -83,19 +85,19 @@ A imagem a seguir exemplifica os conceitos de _Paralelismo_ e _Concorrência_:
 
 <a id="beam" />
 
-A [BEAM](beam-meaning) é a máquina virtual do [Erlang](erlang-meaning) (assim como a [JVM](jvm-meaning) do [JAVA](java-meaning)). Seu funcionamento básico é: ela divide cada ação do seu programa em pequenas ações, chamados de processos (não confundir com os processos do sistema operacional da máquina local). Esses processos são supervisionados pela própria BEAM, para que quando haja algum erro, o sistema se recupere sozinho e sem atrapalhar os outros processos.
+A [BEAM][ beam-meaning ] é a máquina virtual do [Erlang][ erlang-meaning ] (assim como a [JVM][ jvm-meaning ] do [JAVA][ java-meaning ]). Seu funcionamento básico é: ela divide cada ação do seu programa em pequenas ações, chamados de processos (não confundir com os processos do sistema operacional da máquina local). Esses processos são supervisionados pela própria BEAM, para que quando haja algum erro, o sistema se recupere sozinho e sem atrapalhar os outros processos.
 
 Quando uma aplição Elixir/Erlang é iniciada, a BEAM cria um "Agendador" (Scheduler) para cada núcleo da CPU da máquina. Esses Agendadores também são processos, mas que supervisionam, agendam e gerenciam os outros processos da aplicação. A imagem a seguir exemplifica a crição dos Agendadores:
 
 ![beam_schedulers](https://user-images.githubusercontent.com/44469426/230241258-08aeb6d8-9038-4eda-89f0-fb13de077aa9.png)
 
-### [Plataforma Pescarte](pescarte-plataforma)
+### [Plataforma Pescarte][ pescarte-plataforma ]
 
 <a id="frontend" />
 
-Subprojeto onde é implementado o [frontend](frontend-meaning) do projeto Pescarte. Aqui se encontra a parte visual com qual as pessoas usuárias da nossa plataforma interage! Ela depende da [API do projeto](pescarte-api) e é implementada usando a tecnologia [Vue](vue-meaning) a partir do framework [Nuxt.JS](nuxt-meaning) em conjunto com [TypeScript](ts-meaning).
+Subprojeto onde é implementado o [frontend][ frontend-meaning ] do projeto Pescarte. Aqui se encontra a parte visual com qual as pessoas usuárias da nossa plataforma interage! Ela depende da [API do projeto][ pescarte-api ] e é implementada usando a tecnologia [Vue][ vue-meaning ] a partir do framework [Nuxt.JS][ nuxt-meaning ] em conjunto com [TypeScript][ ts-meaning ].
 
-Neste projeto é implementado os componentes criados no [Design System](ds-meaning) do PEA Pescarte, e os layouts definidos por nossa pessoa Designer que trabalha no projeto, o [Anthony](https://www.linkedin.com/in/anthonyymuller/).
+Neste projeto é implementado os componentes criados no [Design System][ ds-meaning ] do PEA Pescarte, e os layouts definidos por nossa pessoa Designer que trabalha no projeto, o [Anthony](https://www.linkedin.com/in/anthonyymuller/).
 
 ### [Pescarte Tags](https://github.com/peapescarte/pescarte-labeler)
 
@@ -128,6 +130,7 @@ Esperamos que se divirta com suas contribuições, aprenda novos tópicos e tecn
 Em construção...
 
 <!-- links alias -->
+
 [api-meaning]: https://www.techtudo.com.br/listas/2020/06/o-que-e-api-e-para-que-serve-cinco-perguntas-e-respostas.ghtml
 [aws-meaning]: https://aws.amazon.com/pt/what-is-aws/
 [beam-meaning]: https://www.erlang.org/blog/a-brief-beam-primer/
