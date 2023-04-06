@@ -3,7 +3,8 @@
     width="392"
     height="124" 
     align="center"
-    src="https://user-images.githubusercontent.com/44469426/230241106-5e51ce3f-069e-4140-92a6-9c946b1ae514.png"
+    src="https://user-images.githubusercontent.com/44469426/230446665-7e83ce6c-4f94-416a-9ec3-7c1e43961cf8.svg"
+    alt="Logo PEA Pescarte com os 10 peixinhos"
   />
 </p>
 
