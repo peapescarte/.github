@@ -1,7 +1,7 @@
 <img
   src="https://user-images.githubusercontent.com/44469426/230241106-5e51ce3f-069e-4140-92a6-9c946b1ae514.png"         width="392" 
   height="124" 
-  style="margin: 0 auto;"
+  align="center"
 />
 
 # PEA Pescarte
