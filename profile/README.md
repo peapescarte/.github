@@ -1,7 +1,8 @@
 <div style="display: flex; justify-content: space-between; align-items: center">
   <h1>PEA Pescarte</h1>
-  <img src="./assets/pescarte_logo.svg" width="196" height="92" />
+  <img src="https://user-images.githubusercontent.com/44469426/230241106-5e51ce3f-069e-4140-92a6-9c946b1ae514.png" width="196" height="92" />
 </div>
+
 
 ## Tabela de Conteúdos
 
@@ -18,8 +19,9 @@ Aqui você pode achar links diretos para as seções desse documento!
 3. [Guias para Contribuições](#contribution-guides)
 4. [Regras de Negócio](#business-rules)
 
-<a id="description" />
 ## Descrição do Projeto
+
+<a id="description" />
 
 O _Projeto PESCARTE_ tem como sua principal finalidade a criação de uma rede social regional integrada por pescadores artesanais e por seus familiares, buscando, por meio de processos educativos, promover, fortalecer e aperfeiçoar a sua organização comunitária e a sua qualificação profissional, bem como o seu envolvimento na construção participativa e na implementação de projetos de geração de trabalho e renda.
 
@@ -27,13 +29,15 @@ Por meio do Projeto PESCARTE as comunidades pesqueiras que vivem nos municípios
 
 A intenção é reforçar as identidades produtivas dessas comunidades pesqueiras, de modo a favorecer a mitigação dos impactos negativos que as afetam e que são decorrentes das atividades realizadas, naquela região, pela indústria de exploração e produção de petróleo e gás natural.
 
-<a id="subprojects" />
 ## Subprojetos
+
+<a id="subprojects" />
 
 Atualmente contamos com 4 (quatro) subprojetos implementados no `GitHub` do Pescarte.
 
-<a id="api" />
 ### [Pescarte API](pescarte-api)
+
+<a id="api" />
 
 Uma [API](api-meaning) (interface de aplicação programável) que expõe dados públicos para serem consultados por entidades externas, mas também fornece dados para nosso outros subprojetos.
 
@@ -41,8 +45,9 @@ Uma [API](api-meaning) (interface de aplicação programável) que expõe dados 
 
 A API do projeto é implementada com [Elixir](elixir-site), usando o [framework web](framework-meaning) chamado [Phoenix](phoenix-site).
 
-<a id="why-elixir" />
 #### Por que usar Elixir?
+
+<a id="why-elixir" />
 
 [Elixir](elixir-site) é uma [linguagem funcional](functional-prog), criada em 2011 pelo José Valim. Ela é baseada na [BEAM](beam-meaning), a máquina virtual do [Erlang](erlang-meaning). O Erlang é conhecido por ser uma linguagem robusta, perfeita para aplicações que necessitam ser tolerantes à falhas, concorrentes - aproveitando todo o potencial da máquina - e escaláveis.
 
@@ -56,8 +61,9 @@ Vantagens da programação funcional:
 - Sintaxe mais humanamente amigável
 - Funções puras, sem efeitos colaterais
 
-<a id="concurrency-parallelism" />
 ##### Diferença entre Concorrência e Paralelismo em Computação
+
+<a id="concurrency-parallelism" />
 
 Imagine uma máquina de venda de refrigerantes, onde apenas uma lata sai por vez, ou seja, apenas uma pessoa pode ser "atendida" após a outra. Com o tempo, forma-se uma fila para comprar refrigerante, onde cada pessoa retira seu item e vai embora. Neste caso, temos um modelo de programação linear.
 
@@ -69,36 +75,41 @@ Num último caso, imagine que existe apenas 1 (uma) máquina de refrigerante (CP
 
 A imagem a seguir exemplifica os conceitos de _Paralelismo_ e _Concorrência_:
 
-![conceitos de paralelismo e concorrêencia](./assets/concorrencia_paralelismo.png)
+![concorrencia_paralelismo](https://user-images.githubusercontent.com/44469426/230241225-60c9ac79-302d-4a19-96bd-b76585c5b902.png)
+
+#### BEAM - máquina virtual do Erlang
 
 <a id="beam" />
-#### BEAM - máquina virtual do Erlang
 
 A [BEAM](beam-meaning) é a máquina virtual do [Erlang](erlang-meaning) (assim como a [JVM](jvm-meaning) do [JAVA](java-meaning)). Seu funcionamento básico é: ela divide cada ação do seu programa em pequenas ações, chamados de processos (não confundir com os processos do sistema operacional da máquina local). Esses processos são supervisionados pela própria BEAM, para que quando haja algum erro, o sistema se recupere sozinho e sem atrapalhar os outros processos.
 
 Quando uma aplição Elixir/Erlang é iniciada, a BEAM cria um "Agendador" (Scheduler) para cada núcleo da CPU da máquina. Esses Agendadores também são processos, mas que supervisionam, agendam e gerenciam os outros processos da aplicação. A imagem a seguir exemplifica a crição dos Agendadores:
 
-![BEAM schedulers](./assets/beam_schedulers.png)
+![beam_schedulers](https://user-images.githubusercontent.com/44469426/230241258-08aeb6d8-9038-4eda-89f0-fb13de077aa9.png)
+
+### [Plataforma Pescarte](pescarte-plataforma)
 
 <a id="frontend" />
-### [Plataforma Pescarte](pescarte-plataforma)
 
 Subprojeto onde é implementado o [frontend](frontend-meaning) do projeto Pescarte. Aqui se encontra a parte visual com qual as pessoas usuárias da nossa plataforma interage! Ela depende da [API do projeto](pescarte-api) e é implementada usando a tecnologia [Vue](vue-meaning) a partir do framework [Nuxt.JS](nuxt-meaning) em conjunto com [TypeScript](ts-meaning).
 
 Neste projeto é implementado os componentes criados no [Design System](ds-meaning) do PEA Pescarte, e os layouts definidos por nossa pessoa Designer que trabalha no projeto, o [Anthony](https://www.linkedin.com/in/anthonyymuller/).
 
-<a id="labeler" />
 ### [Pescarte Tags](https://github.com/peapescarte/pescarte-labeler)
 
+<a id="labeler" />
+
 Em construção...
 
-<a id="price" />
 ### [Pescarte Cotação de Pescados](https://github.com/peapescarte/cotacao-api)
 
+<a id="price" />
+
 Em construção...
 
-<a id="contribution-guides" />
 ## Guia para Contribuições
+
+<a id="contribution-guides" />
 
 Os guias de contribuição, junto com os requisitos e links extras de documentações e materiais para estudos estão separados em cada projeto.
 
@@ -108,10 +119,11 @@ Para contribuir com o Frontend (Plataforma Pescarte), sigas as intruções descr
 
 Esperamos que se divirta com suas contribuições, aprenda novos tópicos e tecnologias e se desenvolva em sua carreira!
 
-<a id="business-rules" />
 ## Regras de Negócio
 
-Em construção
+<a id="business-rules" />
+
+Em construção...
 
 <!-- links alias -->
 [api-meaning]: https://www.techtudo.com.br/listas/2020/06/o-que-e-api-e-para-que-serve-cinco-perguntas-e-respostas.ghtml
