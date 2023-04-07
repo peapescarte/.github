@@ -81,10 +81,57 @@ Para contribuir com o Frontend (Plataforma Pescarte), sigas as intruções descr
 
 Esperamos que se divirta com suas contribuições, aprenda novos tópicos e tecnologias e se desenvolva em sua carreira!
 
+### Linux e terminal
+
+- [Curso completo de linux (en)](https://www.youtube.com/watch?v=sWbUDq4S6Y8)
+- [PDF de comandos básicos para terminal (en)](https://bjpcjp.github.io/pdfs/devops/linux-commands-handbook.pdf)
+- [O que são gerenciadores de pacotes (en)](https://www.youtube.com/watch?v=0W8-3RwvJwc)
+- [Comandos básicos linux (terminal) (pt-br)](https://www.youtube.com/watch?v=JEhVB4VHsTI)
+- [Linux, primeiros passos (pt-br)](https://www.youtube.com/watch?v=6nN2EglOqCM&list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
+- [Aprenda Linux - para iniciantes (pt-br)](https://www.youtube.com/watch?v=K05CssAbQgo&list=PLZsjaJhVZaxX9xCXhZDJnhFcIL4ncLjVj)
+- [Curso de linux avançado (pt-br)](https://www.youtube.com/watch?v=11MiDMES140&list=PLGw1E40BSQnRZufbzjGVzkH-O8SngPymp)
+- [Comandos essenciais de terminal para pessoas desenvolvedoras (pt-br)](https://www.youtube.com/watch?v=TQ01CHNzq7o)
+- [Terminal para pessoas desenvolvedoras (pt-br)](https://www.youtube.com/watch?v=yIExip79lLM)
+- [NixOS, um sistema operacional para pessoas desenvolvedoras (pt-br)](https://www.youtube.com/watch?v=J8uH_6WY3WA)
+- [15+ comandos de terminal para pessoas desenvolvedoras (en)](https://www.youtube.com/watch?v=CV-ven_rxhw)
+- [Guia de terminal para pessoas desenvolvedoras frontend (en)](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/)
+- [Linha de comando para iniciantes (en)](https://www.freecodecamp.org/news/command-line-for-beginners/)
+
+### Introdução ao Git e GitHub
+
+Vídeos, artigos e ferramentas para entender e praticar versionamento de projetos e gerenciamento de repositórios remotos com Git e Github!
+
+- [Aprenda comandos git visualmente (en)](https://learngitbranching.js.org/)
+- [Conceitos básicos de git (en)](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+- [Guia completo GitHub (en)](https://www.youtube.com/watch?v=UbJLOn1PAKw)
+- [git e github guia completo (en)](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- [Guia prático git (pt-br)](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Tutorial git para iniciantes (pt-br)](https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao)
+- [Documentação oficial git (en)](https://git-scm.com/doc)
+- [Tutorial git e github para iniciantes (pt-br)](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
+- [Como usar git e github na prática (pt-br)](https://www.youtube.com/watch?v=2alg7MQ6_sI)
+- [Guia git e github (pt-br)](https://terminalroot.com.br/git/)
+- [Comandos git úteis (pt-br)](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
+- [Primeiros passos github, oficial (pt-br)](https://docs.github.com/pt/get-started/quickstart/hello-world)
+- [Palestra do Linus Torvalds sobre git (en)](https://www.youtube.com/watch?v=4XpnKHJAok8)
+
+### Lógica matemática e algoritmos
+
+- [Introdução a lógica matemática (pt-br)](https://www.youtube.com/watch?v=tiARjzPh2pI&list=PL7RjLI0hJPfClF1VUbV6rxEKhisvGKeiI)
+- [Noções de lógica (pt-br)](https://www.youtube.com/watch?v=PltqUuwR9ec&list=PLEfwqyY2ox85ShbZ1O0fXmkUxavBmSNaK)
+- [Lógica matemática (pt-br)](https://www.youtube.com/watch?v=pU4I8sC-2WM&list=PLvLkxtdUefNxVJRFVNBNLtNs7NvpkMlX0)
+- [Curso lógica de programação (pt-br)](https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+- [Introdução a lógica de programação (pt-br)](https://www.youtube.com/watch?v=SrKTnlKdLrQ&list=PLpaKFn4Q4GMNlLZQcOjt_-xxz6BTmugdU)
+- [Introdução a algoritmos, 3rd edição (en)](https://sd.blackball.lv/library/Introduction_to_Algorithms_Third_Edition_(2009).pdf)
+- [Trilhas e exercícios para aprender linguagens de programação - Elixir incluso (en)](https://exercism.org/)
+- [Algoritmos: uma introdução usando programação funcional (en)](https://github.com/yiqiaowang/learning/blob/master/Algorithms-A-Functional-Programming-Approach.pdf)
+- [Algoritmos para programação funcional (en)](https://github.com/yiqiaowang/learning/blob/master/2018_Book_AlgorithmsForFunctionalProgram.pdf)
+
 ### Introdução a Programação Funcional
 
 Vídeos, artigos e ferramentas para entender e praticar programação funcional, tanto com Elixir quanto com TypeScript!
 
+- [Curso Elixir (pt-br)](https://www.youtube.com/watch?v=WRGvPgCHMfI&list=PLv3nyCBtlWP8I9rknIrfcJWrO05yEzknD)
 - [Canal computerphile (en)](https://www.youtube.com/@Computerphile)
 - [Explicando a máquina de turing (en)](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 - [Explicando cálculo lambda - base da prog funcional (en)](https://www.youtube.com/watch?v=eis11j_iGMs)
@@ -105,24 +152,7 @@ Vídeos, artigos e ferramentas para entender e praticar programação funcional,
 - [Aprendendo programação funcional com Elixir (pr-br)](https://www.youtube.com/watch?v=DYszf5MF8fA&list=PLxdiLpHsLM4SKmruij4mLLf8tYItLff5a)
 - [JavaScript funcional (pt-br)](https://www.youtube.com/watch?v=T89jpSLK-NM&list=PLv2oOZboUtKMn-xjAICBlINuqKwLmc13e)
 - [Aprendendo programação funcional com JS (en)](https://www.youtube.com/watch?v=e-5obm1G_FY)
-
-### Introdução ao Git e GitHub
-
-Vídeos, artigos e ferramentas para entender e praticar versionamento de projetos e gerenciamento de repositórios remotos com Git e Github!
-
-- [Aprenda comandos git visualmente (en)](https://learngitbranching.js.org/)
-- [Conceitos básicos de git (en)](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
-- [Guia completo GitHub (en)](https://www.youtube.com/watch?v=UbJLOn1PAKw)
-- [git e github guia completo (en)](https://www.youtube.com/watch?v=RGOj5yH7evk)
-- [Guia prático git (pt-br)](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
-- [Tutorial git para iniciantes (pt-br)](https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao)
-- [Documentação oficial git (en)](https://git-scm.com/doc)
-- [Tutorial git e github para iniciantes (pt-br)](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
-- [Como usar git e github na prática (pt-br)](https://www.youtube.com/watch?v=2alg7MQ6_sI)
-- [Guia git e github (pt-br)](https://terminalroot.com.br/git/)
-- [Comandos git úteis (pt-br)](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
-- [Primeiros passos github, oficial (pt-br)](https://docs.github.com/pt/get-started/quickstart/hello-world)
-- [Palestra do Linus Torvalds sobre git (en)](https://www.youtube.com/watch?v=4XpnKHJAok8)
+- [Estruturas de Dados puramente funcionais (en)](https://github.com/yiqiaowang/learning/blob/master/Purely-Functional-Data-Structures.pdf)
 
 ## Regras de Negócio
 
