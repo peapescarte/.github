@@ -16,11 +16,6 @@ Aqui você pode achar links diretos para as seções desse documento!
 
 1. [Descrição do Projeto](#description)
 2. [Subprojetos](#subprojects)
-
-  - [Pescarte API](#api)
-  - [Pescarte Tags](#labeler)
-  - [Pescarte Cotação de Pescados](#price)
-
 3. [Guias para Contribuições](#contribution-guides)
 4. [Regras de Negócio](#business-rules)
 
@@ -50,13 +45,10 @@ Uma [API][ api-meaning ] (interface de aplicação programável) que expõe dado
 
 A API do projeto é implementada com [Elixir][ elixir-site ], usando o [framework web][ framework-meaning ] chamado [Phoenix][ phoenix-site ].
 
-### [Plataforma Pescarte][ pescarte-plataforma ]
-
-<a id="frontend" />
-
 Subprojeto onde é implementado o [frontend][ frontend-meaning ] do projeto Pescarte. Aqui se encontra a parte visual com qual as pessoas usuárias da nossa plataforma interage! Ela depende da [API do projeto][ pescarte-api ] e é implementada usando a tecnologia [Vue][ vue-meaning ] a partir do framework [Nuxt.JS][ nuxt-meaning ] em conjunto com [TypeScript][ ts-meaning ].
 
 Neste projeto é implementado os componentes criados no [Design System][ ds-meaning ] do PEA Pescarte, e os layouts definidos por nossa pessoa Designer que trabalha no projeto, o [Anthony](https://www.linkedin.com/in/anthonyymuller/).
+
 
 ### [Pescarte Tags](https://github.com/peapescarte/pescarte-labeler)
 
@@ -142,17 +134,10 @@ Vídeos, artigos e ferramentas para entender e praticar programação funcional,
 - [Introdução a programação funcional (pt-br)](https://inside.contabilizei.com.br/introdu%C3%A7%C3%A3o-a-programa%C3%A7%C3%A3o-funcional-cec510f515cd)
 - [Guia de introdução a programação funcional (pt-br)](https://medium.com/true-henrique/programa%C3%A7%C3%A3o-funcional-pura-ruby-e-monads-i-introdu%C3%A7%C3%A3o-b16687db63d)
 - [Introdução a programação funcional com Elixir (pt-br)](https://www.youtube.com/watch?v=dB6M4Hwv6cY)
-- [Introdução a prprogramação funcional com Elixir (slides) (pt-br)](https://www.slideshare.net/ArthurBraga/introduo-a-programao-funcional-com-elixir-v2)
-- [Técnicas de programação funcional com TypeScript (pt-br)](https://oieduardorabelo.medium.com/typescript-t%C3%A9cnicas-de-programa%C3%A7%C3%A3o-funcional-ad0e68b5e064)
-- [TypeScript para pessoas programadoras funcionais (pt-br)](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes-func.html)
-- [Introdução a programação funcional com TypeScripte JavaScript (pt-br)](https://dev.to/grubba/introducao-a-programacao-funcional-com-typescript-e-javascript-22b9)
-- [Live Node.JS + TS com programação funcional (pr-br)](https://gist.github.com/fdaciuk/9e7eb058d999bb20caa769684ae76904)
-- [Functional TypeScript - código com documentação (pt-br)](https://github.com/robertolima-dev/funcional-typescript)
+- [Introdução a programação funcional com Elixir (slides) (pt-br)](https://www.slideshare.net/ArthurBraga/introduo-a-programao-funcional-com-elixir-v2)
 - [O que é Programação funcional (pt-br)](https://www.youtube.com/watch?v=53Lv3efp7Rk)
 - [Programação funcional exemplos em JS e Elixir (pt-br)](https://www.youtube.com/watch?v=8TC-40hWGcs)
 - [Aprendendo programação funcional com Elixir (pr-br)](https://www.youtube.com/watch?v=DYszf5MF8fA&list=PLxdiLpHsLM4SKmruij4mLLf8tYItLff5a)
-- [JavaScript funcional (pt-br)](https://www.youtube.com/watch?v=T89jpSLK-NM&list=PLv2oOZboUtKMn-xjAICBlINuqKwLmc13e)
-- [Aprendendo programação funcional com JS (en)](https://www.youtube.com/watch?v=e-5obm1G_FY)
 - [Estruturas de Dados puramente funcionais (en)](https://github.com/yiqiaowang/learning/blob/master/Purely-Functional-Data-Structures.pdf)
 
 ## Regras de Negócio
