@@ -35,20 +35,21 @@ A intenção é reforçar as identidades produtivas dessas comunidades pesqueira
 
 Atualmente contamos com 4 (quatro) subprojetos implementados no `GitHub` do Pescarte.
 
-### [Pescarte API][pescarte-api]
+### [Plataforma Pescarte][platforma-pescarte]
 
 <a id="api" />
 
-Uma [API][ api-meaning ] (interface de aplicação programável) que expõe dados públicos para serem consultados por entidades externas, mas também fornece dados para nosso outros subprojetos.
-
-É a aplição que se conecta com nossa base de dados, data lake e faz outras integrações com serviços externos como [AWS][ aws-meaning ].
-
-A API do projeto é implementada com [Elixir][ elixir-site ], usando o [framework web][ framework-meaning ] chamado [Phoenix][ phoenix-site ].
-
-Subprojeto onde é implementado o [frontend][ frontend-meaning ] do projeto Pescarte. Aqui se encontra a parte visual com qual as pessoas usuárias da nossa plataforma interage! Ela depende da [API do projeto][ pescarte-api ] e é implementada usando a tecnologia [Vue][ vue-meaning ] a partir do framework [Nuxt.JS][ nuxt-meaning ] em conjunto com [TypeScript][ ts-meaning ].
+O projeto é implementado de ponta a ponta com [Elixir][ elixir-site ], usando o [framework web][ framework-meaning ] chamado [Phoenix][ phoenix-site ]. A aplicação é um monolito e não há intenção de quebrar em microsserviços pois temos pouca escala. Apesar disso existem outros dois subprojetos que são a parte da plataforma, porém serão integradas em breve. Desejamos quebrar algumas partes da plataforma em bibliotecas para melhor manutembilidade, como os componentes do [Design System][ ds-meaning ].
 
 Neste projeto é implementado os componentes criados no [Design System][ ds-meaning ] do PEA Pescarte, e os layouts definidos por nossa pessoa Designer que trabalha no projeto, o [Anthony](https://www.linkedin.com/in/anthonyymuller/).
 
+### [Pescarte CLI](https://github.com/peapescarte/pescarte-cli)
+
+> WIP - trabalho em progresso
+
+Ferramenta de linha de comando para gerenciar novos serviços pescarte.
+
+Em construção...
 
 ### [Pescarte Tags](https://github.com/peapescarte/pescarte-labeler)
 
@@ -68,9 +69,7 @@ Em construção...
 
 Os guias de contribuição, junto com os requisitos e links extras de documentações e materiais para estudos estão separados em cada projeto.
 
-Para contribuir com o Backend (API Pescarte), sigas as intruções descritas [aqui](https://github.com/peapescarte/pescarte-api/blob/main/CONTRIBUTING.md).
-
-Para contribuir com o Frontend (Plataforma Pescarte), sigas as intruções descritas [aqui](https://github.com/peapescarte/pescarte-plataforma/blob/main/CONTRIBUTING.md).
+Para contribuir com a Plataforma (PLataforma Pescarte), sigas as intruções descritas [aqui](https://github.com/peapescarte/pescarte-plataforma/blob/main/CONTRIBUTING.md).
 
 Esperamos que se divirta com suas contribuições, aprenda novos tópicos e tecnologias e se desenvolva em sua carreira!
 
