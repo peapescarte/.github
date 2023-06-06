@@ -35,7 +35,7 @@ A intenção é reforçar as identidades produtivas dessas comunidades pesqueira
 
 Atualmente contamos com 4 (quatro) subprojetos implementados no `GitHub` do Pescarte.
 
-### [Plataforma Pescarte][platforma-pescarte]
+### [Plataforma Pescarte][ pescarte-plataforma ]
 
 <a id="api" />
 
@@ -153,7 +153,6 @@ Em construção...
 [cpu-meaning]: https://pt.wikipedia.org/wiki/Unidade_central_de_processamento
 [core-meaning]: https://canaltech.com.br/hardware/como-ativar-os-nucleos-do-processador/
 [erlang-meaning]: https://coodesh.com/blog/dicionario/o-que-e-erlang/
-[pescarte-api]: https://github.com/peapescarte/pescarte-api
 [pescarte-plataforma]: https://github.com/peapescarte/pescarte-plataforma
 [process-meaning]: https://pt.wikipedia.org/wiki/Processo_(inform%C3%A1tica)
 [elixir-site]: https://elixir-lang.org
